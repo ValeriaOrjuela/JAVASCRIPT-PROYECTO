@@ -40,3 +40,30 @@ while(true){
 }
 
 console.log("El total de la compra es: " + total1.toFixed(2));
+
+//Realizá un programa que permita ingresar un número entero e indique si se trata de un número par o impar. 
+numero=parseInt(prompt("Ingresa un numero: "));
+
+if(numero%2==0){
+    console.log("El numero "+ numero + " es par");
+}else{
+    console.log("El numero "+ numero + " es impar");
+}
+//Realizá un programa que permita ingresar dos números enteros e indique cuál de ellos es el mayor.
+
+mun1=parseInt(prompt("Ingresa el primer numero: "));
+mun2=parseInt(prompt("Ingresa el segundo numero: "));
+
+if(mun1>mun2){
+    console.log("El numero 1: "+ mun1 + " es mayor que el numero 2: "+ mun2);
+
+}else{
+    console.log("El numero 2: "+ mun2 + " es mayor que el numero 1: "+ mun1);
+}
+
+let costo = parseInt(prompt("Ingrese el valor de la hora de trabajo: "));
+let horas = parseInt(prompt("Cuantas horas son laboradas: "));
+let horasTotales= (horas * 5) + (horas/2);
+let salarioSemanal= horasTotales*costo;
+
+console.log("El salario semanal es: "+ salarioSemanal);
