@@ -149,3 +149,12 @@ console.log(sliceArray);
 
 
 
+// fOR OF => ES UNA ESTRUCTURA DE CONTROL DE FLUJO, SE UTILIZA PARA RECORRER Y OPERAR EN ELEMENTOS DE UN ITERABLE
+
+// ES UN BUCLE
+
+const lenguajes = ["ingles", "espanol", "italiano", "frances"];
+
+for (const lenguaje of lenguajes) {
+    console.log(lenguaje);
+}
