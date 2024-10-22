@@ -131,6 +131,11 @@ El metodo filter me va a devolver un nuevo array con todos los elementos que pas
 let edad = [15,25,10,20,22,37,40];
 let mayoresEdad = edad.filter(mayores => mayores>=18);
 console.log(mayoresEdad);
+console.log(edad);
+
+let edad1 = [15,25,10,20,22,37,40];
+edad1 = edad1.filter(mayores => mayores>=18);
+console.log(edad1);
 
 // METODO SOME
 
